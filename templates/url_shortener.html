@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form action="/" method="post">
+      <input type="text" name="url" placeholder="Enter URL">
+      <input type="submit" value="Shorten">
+      {% if id %}
+        <p>{{ id }}</p>
+      {% endif %}
+    </form>
+  </body>
+</html>
